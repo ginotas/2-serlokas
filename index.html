@@ -7,13 +7,15 @@
     <title>Serlokas</title>
 </head>
 <body style="background-color: #eaebed;">
-    <main style="display: inline-block; background-color: red; width: 50%; margin-top: 100px; margin-left: 25%;">
+    <main style="display: inline-block;  width: 50%; margin-top: 100px; margin-left: 25%;">
             <img style="width: 40%;  float:left; margin-right: 10%;" src="./serlokas.jpg" alt="Serlokas su pypke menesienoje">
-            <div style="background-color: yellow; margin-top: 50px; width: 50%;  float:left">
-                <h1>404</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dolorem?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                
+            <div style="margin-top: 50px; width: 50%;  text-align: center;  float:left">
+                <h1 style="display: line-block; width: 100%; ">404</h1>
+
+                <p style="display: line-block; width: 100%;  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dolorem?</p>
+                <p style="display: line-block; width: 100%;  ">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+                <a style="display:inline-block; padding: 20px; padding-top: 15px; padding-bottom: 15px; background-color:  #696f89; color: white; text-decoration: none; text-transform: uppercase; margin-left: 1%; " href="#" target="_blank">Back home</a>
 
 
 
@@ -29,6 +31,8 @@
 
 <!--
 
+    visos tekstines (ir ne kitokias) stiliaus savybes gali buti paveldetos is tevu i vaikus!
+
 stiliaus savybes struktura
 savybes-pavadinimas: reiksme;
 
@@ -36,6 +40,7 @@ matavimo vienetai:
 px, %
 
 elementu atvaizdavimo budas:
+display: inline         (defaultine reiksme <span> ir <a> tagams)
 display: block;             (default ir taikoma daugumai elementu, elementai krenta vienas po kitu)
 display: inline-block;  (jei uztenka vietos, elementai krenta i viena eile)
 float: left;        (priverstinis elementu itraukiomas nurodyta kryptimi)
@@ -49,10 +54,21 @@ margin-right
 margin-bottom
 margin-left
 
+padding     elemento turinio atsistumimas to paties elemento krastu
+padding-top
+
+
 sventa marija (elementu statymas i viena eile)
-display: inline-block
-width: 100%
-float: left;
+display: inline-block  (butina parasyti visada)
+width: 100%             (nurodyti butina, bet reiksme turi buti adekvati)
+float: left;            (rasome, jei elementai turi buti vienoje eileje)
+
+teksto lygiavimas:
+text-align: left;
+text-align: center;
+text-align: right;
+
+
 
 
 
